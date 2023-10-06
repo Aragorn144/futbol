@@ -1,0 +1,107 @@
+/* Estilos para el cuerpo del documento */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado principal */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilos para los títulos secundarios */
+h2 {
+    color: #555;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+}
+
+/* Estilos para el texto de la descripción */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Estilos para la información personal en el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para la imagen del autor */
+footer img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Estilo para el hover en los enlaces del menú */
+nav a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los párrafos con clase "destacado" */
+.destacado {
+    font-weight: bold;
+    color: #ff5722;
+}
+
+/* Estilo para la lista dentro de un párrafo */
+p ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Estilo para la pseudo-clase hover en los enlaces */
+a:hover {
+    text-decoration: underline;
+}
